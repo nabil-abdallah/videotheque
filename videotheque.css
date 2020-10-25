@@ -65,13 +65,22 @@ nav.menu-nav ul li:hover a{
 
 
 footer{
-  background-color: red;
+  /*background-color: red;*/
+}
+
+.intro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
 }
 
 
 .carousel {
   padding-top: 1,5vh;
   padding-bottom: 5vh;
+  background: rgba(0, 0, 0, 0.6)
 }
 
 .carousel h1 {
@@ -138,7 +147,7 @@ li {
 
 .card h2 {
   color: white;
-  background-color: grey;
+  background: rgba(147, 143, 143, 0.5);
   max-width: 50%;
   text-align: center;
 }
@@ -147,4 +156,32 @@ li {
   color: white;
   background-color: black;
   margin-top: 0;
+}
+
+#logo {
+  background: rgba(0, 0, 0, 0.6)
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*flex-wrap: wrap;*/
+  align-content: center;
+}
+
+.logo1{
+  max-width: 8vh;
+  margin-left: 2vh;
+  
+}
+
+#logo h2 {
+  color: white;
+  background: rgba(147, 143, 143, 0.5);
+  text-align: center;
+  margin: auto;
+  margin-top: 5vh;
+  margin-bottom: 3vh; 
+  max-width: 30%;
 }
